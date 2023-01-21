@@ -1,3 +1,4 @@
+class
 const input = document.getElementById('Todo');
 const button=document.getElementById('Input');
 const ul=document.getElementById('todo-list');
@@ -23,7 +24,7 @@ function deleteTodo(task)
 }
 /*input.addEventListener('click',);*/
 
-/*button.addEventListener('click',(e) => {
+button.addEventListener('click',(e) => {
   e.preventDefault();
   addTodo()
-}); */
+}); 
